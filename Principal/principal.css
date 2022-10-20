@@ -1,0 +1,92 @@
+@font-face {
+    font-family: itc-novarese-std-bold;
+    src: url(/ProjectChampions/Fontes/itc-novarese-std-bold-maisfontes.1a4d/itc-novarese-std-bold.otf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: 0;
+    font-family: "itc-novarese-std-bold";
+}
+
+
+body {
+    background-image: url(/ProjectChampions/Imagens/imgfundo.jpeg);
+    background-size: 100%;
+    
+    
+}
+
+.retangulo {
+    position: absolute;
+    background-color: #C4C4C4;
+    height: 15%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    
+}
+
+h1 {
+    font-size: 54px;
+    font-family: "itc-novarese-std-bold";
+    position: absolute;
+    color: #04095A;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: -150px;
+    
+    
+    
+}
+
+.bandeiras img {
+    width: 215px;
+    height: 115px;
+    margin-top: 1%;
+    margin-left: 2%;
+    
+}
+
+
+.subtitulo1 h2 {
+   margin-top: 8%;
+   font-family: "itc-novarese-std-bold";
+   color: white;
+   font-size: 30px;
+   margin-left: 2%;
+}
+
+.subtitulo2 h3 {
+    color: white;
+    font-family: "itc-novarese-std-bold";
+    margin-top: 0.2%;
+    font-size: 25px;
+    margin-left: 2%;
+}
+
+iframe {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin-top: -30%;
+    margin-left: 30%;
+}
+
+.logo img {
+    position: absolute;
+    width: 210px;
+    height: 165px;
+    margin-left: 0px;
+    margin-top:  -10%;
+    left: 0;
+    right: 0;
+}
